@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginTop="16dp">
+
+    <LinearLayout
+        android:id="@+id/itemdata_linear"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/itemdata_tv_nama"
+            android:src="@drawable/ahmad_dahlan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAMA"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/itemdata_tv_alamat"
+            android:layout_weight="1"
+            android:text="Alamat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/itemdata_tv_jenkel"
+            android:layout_weight="1"
+            android:text="JENKEL"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
